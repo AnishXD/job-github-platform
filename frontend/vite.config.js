@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['redux-persist/lib/storage'],
+      external: ['redux-persist/es/storage'],
     },
   },
 });
