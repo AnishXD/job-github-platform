@@ -16,7 +16,7 @@ const app = express();
 const _dirname=path.resolve();
 
 const corsOptions = {
-    origin: 'http://localhost:5173',  // Allow only this origin
+    origin: 'https://job-github-platform.onrender.com',  // Allow only this origin
     credentials: true  // Allow credentials (cookies, HTTP auth)
 };
 
